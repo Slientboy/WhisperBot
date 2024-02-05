@@ -6,7 +6,7 @@ import os
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = os.environ.get("TOKEN", None)
+TOKEN = os.environ.get("TOKEN","6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8")
 
 bot = TelegramClient(
         "Whisper",
